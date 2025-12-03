@@ -51,7 +51,6 @@ print("Welcome to fibonacci series generator")
 n = input("Enter the number of terms:")
 try: 
     n = int(n)
-    counter = 0
     first_number = 0
     second_number = 1
     next_number = 0
