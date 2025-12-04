@@ -4,6 +4,23 @@
 # Matrícula: 2530220
 # Grupo: IM-1:1
 # ------------------------------------------------------------
+#RESUMEN EJECUTIVO
+"""
+Un bucle for se utiliza para repetir instrucciones un número conocido de veces, normalmente recorriendo secuencias como rangos, listas o cadenas. 
+En cambio, un bucle while ejecuta código mientras se cumpla una condición lógica, por lo que es más natural usarlo cuando no sabes cuántas iteraciones habrá. 
+Un contador es una variable que aumenta paso a paso para llevar registro del número de repeticiones, mientras que un acumulador suma valores durante el proceso. 
+Es fundamental definir bien la condición de salida de los bucles para evitar ciclos infinitos y errores lógicos. 
+Este documento cubrirá la descripción de cada problema, el diseño de entradas y salidas, las validaciones necesarias y el uso adecuado de for y while 
+en diferentes situaciones como recorridos, menús y lectura repetida de datos.
+"""
+#PRINCIPIOS Y BUENAS PRÁCTICAS
+"""
+- Usar for cuando se conoce de antemano cuántas iteraciones necesitas (por ejemplo, recorrer un rango de 1 a 10).
+- Usar while cuando las repeticiones dependen de una condición (por ejemplo, esperar a que el usuario escriba "EXIT").
+- Inicializar contadores y acumuladores antes de entrar al bucle.
+- Actualizar las variables de control dentro del while para evitar ciclos infinitos.
+- Mantener el cuerpo del bucle simple y, si es necesario, mover lógica compleja a funciones separadas.
+"""
 print("---------------------------------------------------------------------")
 print("------------------(Problem 1: Sum of range with for)-----------------")
 #Problem 1: Sum of range with for
@@ -362,3 +379,24 @@ try:
         print(row)
 except:
     print("Error. Invalid input")
+#CONCLUSIONES
+"""
+El uso de for y while tiene diferencias prácticas importantes: for es ideal cuando conocemos el número de repeticiones, mientras que while funciona mejor cuando dependemos de una condición variable. 
+Los contadores y acumuladores fueron esenciales para controlar iteraciones y realizar cálculos progresivos dentro de los bucles. 
+Al trabajar con while, comprendí los riesgos de generar ciclos infinitos si no se actualizan correctamente las variables de control. 
+También observé que los menús interactivos y los sistemas de intentos de contraseña son aplicaciones muy naturales del bucle while. 
+Finalmente, aprendí cómo funcionan los bucles anidados y cómo permiten generar patrones repetitivos o estructuras más complejas dentro del programa.
+"""
+#REFERENCIAS
+"""
+1) Python documentation – for statements, while statements  
+2) W3Schools – Python Loops (for, while)  
+3) Real Python – Looping Techniques in Python  
+4) Automate the Boring Stuff with Python – Chapter on Flow Control  
+5) Programiz – Python Loops Explained  
+"""
+##Repositorio de github
+"""
+https://github.com/dNavarro-07/homework_projects.git
+"""
+
