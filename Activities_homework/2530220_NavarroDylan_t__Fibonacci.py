@@ -10,7 +10,7 @@ La serie de Fibonacci es una secuencia de números donde cada término se obtien
 comenzando normalmente con 0 y 1. Calcular la serie hasta un número de términos n significa generar 
 los primeros n valores siguiendo esa regla. Este programa realiza la lectura del valor n, valida que sea un 
 entero permitido y, si es correcto, genera y muestra la serie de Fibonacci hasta completar la cantidad de 
-términos solicitados.
+términos solicitados..
 """
 """
 DESCRIPCION:
